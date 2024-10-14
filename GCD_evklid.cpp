@@ -6,10 +6,8 @@ private:
     int b;
 
 public:
-    // Constructor
     GCD(int x, int y) : a(x), b(y) {}
 
-    // Method to compute GCD
     int computeGCD() {
         while (b != 0) {
             int temp = b;
